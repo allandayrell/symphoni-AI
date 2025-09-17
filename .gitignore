@@ -1,0 +1,24 @@
+# --- Ambiente Virtual ---
+# Ignora a pasta do ambiente virtual
+venv/
+.venv/
+
+# --- Arquivos de Cache e Bytecode do Python ---
+# Ignora as pastas de cache geradas automaticamente
+__pycache__/
+*.pyc
+
+# --- Segredos e Configurações de Ambiente ---
+# MUITO IMPORTANTE: Ignora o arquivo com chaves de API e outros segredos
+.env
+
+# --- Arquivos de Configuração do Editor/IDE ---
+# Ignora configurações específicas do VS Code
+.vscode/
+
+# --- Arquivos de Sistema Operacional ---
+# Ignora arquivos de metadados do macOS
+.DS_Store
+
+# --- Arquivos de Log ---
+*.log
